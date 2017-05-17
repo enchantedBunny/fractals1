@@ -1,0 +1,45 @@
+
+#mandelbrot{
+
+cursor: crosshair;
+
+
+}
+ html {
+        font-family: Arial,sans-serif;
+    }
+    .button {
+        z-index:2; position:absolute; 
+            width: 90px;
+    height: 90px;
+    opacity:0.5;
+    
+    background-color: transparent;
+    border: transparent;
+    background: url(down.png) no-repeat;
+    }
+    .button:hover{
+            opacity:0.8;
+
+    }
+    .overlay-text{
+            width: 700px;
+    text-align: center;
+    padding-top: 10px;
+        z-index:2; position:absolute; 
+    }
+.fractal{
+        float: left;
+    overflow: hidden;
+    display: block;
+    width: 700px;
+        margin: 5px;
+       
+}
+@media (max-width:1400px) {
+.fractal{
+    float: none;
+
+}
+
+}

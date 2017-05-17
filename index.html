@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Title</title>
+
+  <link rel="stylesheet" href="style.css"/>
+  <style></style>
+
+  <script src="index.js"></script>
+  <script></script>
+</head>
+
+<body onload="init();" style="width: 100%;text-align: center;margin: 0px;">
+  <div class="fractals" style=" display: inline-block;">
+  <div class="fractal" id="julia_box">
+    <a id="dJulia" class = "button" download="julia.png"/>
+    <a class="overlay-text" id="julia-text">Julia fractal with c= ..</a>
+    <canvas id="julia" width="700" height="700" style="z-index:1"></canvas>
+  </div>
+  <div class="fractal" id="mandelbrot_box"> 
+    <a id="dMandelbrot" class = "button" download="mandelbrot.png"/>
+    <a class="overlay-text">Mandelbrot fractal-click to change c of Julia</a>
+    <canvas id="mandelbrot" width="700" height="700"></canvas>
+  </div>
+  </div>
+</body>
+</html>
